@@ -2,6 +2,9 @@ import './Header.css';
 import Menu from '../Menu/Menu';
 import Button from '../Button/Button';
 import {Link} from 'react-router-dom'
+import Button from '../Button/Button';
+import DIOR from '.';
+
 
 function Header() {
   return (
@@ -14,6 +17,7 @@ function Header() {
             <Button>Sign In</Button>
           </div>
           <Link to="/cart" className="Cart_ic">
+            <img src="{DIOR}" alt="Dior" />
             <span>10</span>
           </Link>
         </div>
