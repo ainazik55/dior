@@ -37,7 +37,6 @@ textarea{
 	border: none;
 	outline: none;
 	display: block;
-	width: 100%;
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
@@ -161,7 +160,7 @@ section{
 }
 .flex{
 	display: flex;
-	flex-wrap: wrap;
+	gap: 20px;
 	justify-content: space-between;
 }
 
