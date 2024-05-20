@@ -1,0 +1,37 @@
+footer{
+    background: rgb(245, 245, 247);
+    padding: 25px 0;
+  }
+  .Foot_tit{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  .Foot_bot{
+    text-align: center;
+    font-size: 12px;
+  }
+  .Foot_bot p:last-child{
+    padding-top: 25px;
+    margin-top: 15px;
+    border-top: 1px solid rgb(93, 93, 93);
+  }
+  .Foot_links-wrap{
+    width: 100px;
+  }
+  .Foot_link{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    background: #333;
+  }
+  .Foot_link:first-child{
+    margin-left: 0;
+  }
+  .Foot_menu-in p{
+    width: 70%;
+    align-items: flex-start;
+    font-size: 12px;
+    opacity: 0.85;
+  }
