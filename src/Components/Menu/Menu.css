@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    gap: 35px;
+}
+li{
+    transition: 0.3s;
+    border: 1px solid #000;
+    border-radius: 18px;
+    padding: 10px;
+}
+li:hover{
+    background: #05386B;
+    color:#fff;
+}

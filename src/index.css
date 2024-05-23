@@ -1,38 +1,38 @@
 html,body{
 	height: 100%;
-}
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-.clearfix::after{
- clear: both;
- content: "";
- display: table;
-}
-a{
+  }
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  .clearfix::after{
+   clear: both;
+   content: "";
+   display: table;
+  }
+  a{
 	color: inherit;
 	text-decoration: none;
-}
-li{
+  }
+  li{
 	list-style: none;
-}
-ul li:last-child{
+  }
+  ul li:last-child{
 	margin-bottom: 0;
-}
-img{
+  }
+  img{
 	display: block;
 	width: 100%;
 	height: auto;
-}
-button,
-label{
+  }
+  button,
+  label{
 	cursor: pointer;
-}
-input,
-button,
-textarea{
+  }
+  input,
+  button,
+  textarea{
 	background: none;
 	border: none;
 	outline: none;
@@ -40,128 +40,69 @@ textarea{
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
-}
-input[type="radio"],
-input[type="checkbox"]{
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
 	display: none;
-}
-input::placeholder {
+  }
+  input::placeholder {
 	color: inherit;
-}
-button{
+  }
+  button{
 	cursor: pointer;
-}
-input, 
-textarea{
+  }
+  input, 
+  textarea{
 	display: block;
 	resize: none;
-}
-body{
-	font-size: 14px;
-	line-height: 19px;
-	color: #222;
+  }
+  body{
+	font-size: 16px;
+	line-height: 1.2;
+	color: #242424;
 	width: 100%;
-	font-family: 'Montserrat ', arial, sans-serif;
-	font-weight: 300;
-	background: #fff;
-}
-
-.wrapper{
-	width: 1280px;
-	margin: 50px auto;
-}
-
-header.logo{
-	font-weight: 600;
-	font-size: 20px;
-}
-
-header.presentation{
-	margin: 50px 0;
-	background: url('./img/dior_1.jpg') no-repeat;
-	width: 100%;
-	height: 500px;
-	background-size: cover;
-	background-position: center center;
-	background-blend-mode: multiply;
-	background-color: #bcbcbc;
-}
-
-header.presentation::after{
-	content: 'МОДА И АКСЕССУАРЫ';
-	position: absolute;
-	top: 100px;
-	left: 50px;
-	width: 300px;
-	font-size: 40px;
-
-}
-
-.container{
+	font-family: 'Open Sans', arial, sans-serif;
+  }
+  .container{
 	max-width: 1325px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
 	padding: 0 15px;
-}
-.dn{
+  }
+  .dn{
 	display: none;
-}
-section{
-	padding: 100px 0;
-}
-.sec_tit{
-    font-family: 'Roboto', arial, sans-serif;
-	font-weight: 800;
-	font-size: 42px;
-	line-height: 57px;
-	text-align: center;
-	margin: 0 auto;
-}
-.color{
+  }
+  section{
+	padding: 0 0 80px;
+  }
+  main{
+	padding: 20px 0;
+  }
+  .color{
 	color: #BE963F;
-}
-.dib{
+  }
+  .dib{
 	display: inline-block;
-}
-.hover{
+  }
+  .hover{
 	transition: 0.3s;
-}
-.hover:hover{
+  }
+  .hover:hover{
 	color: #BE963F;
-}
-.btn{
-	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-	box-shadow: 0px 4px 0px #836A36;
-	border-radius: 10px;
-	font-weight: 800;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #34280E;
-	height: 85px;
+  }
+  .link{
+	transition: 0.3s;
+  }
+  .link:hover{
+	box-shadow: 0px 6px 5px 2px #836A36;
+  }
+  .flex{
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	padding: 14px 0;
-	transition: 0.3s;
-}
-.btn:hover{
-	box-shadow: 0px 6px 5px 2px #836A36;
-}
-.link{
-	transition: 0.3s;
-}
-.link:hover{
-	box-shadow: 0px 6px 5px 2px #836A36;
-}
-.flex{
-	display: flex;
-	gap: 20px;
 	justify-content: space-between;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  }
+  .img_wrap{
+	overflow: hidden;
+	border-radius: 5px;
+  }

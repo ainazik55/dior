@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Menu() {
   return (
     <nav className='Menu'>
-      <ul className='flex'>
+      <ul className='main'>
         <li>
           <Link to="/">Home</Link>
         </li>

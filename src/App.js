@@ -15,26 +15,21 @@ import {
 } from 'react-router-dom'
 
 
-
-
-
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <Header />
         <main>
-          <div className="container">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
-              <Route path="contacts" element={<Contacts />} />
-              <Route path="order" element={<Order />} />
-              <Route path="delivery" element={<Delivery />} />
-              <Route path="cart" element={<Cart />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contacts" element={<Contacts />} />
+            <Route path="order" element={<Order />} />
+            <Route path="delivery" element={<Delivery />} />
+            <Route path="cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </main>
         <Footer />
       </Router>

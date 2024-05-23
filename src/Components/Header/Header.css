@@ -6,17 +6,19 @@ header{
     position: relative;
     padding-right: 35px;
   }
-  .Buttons .Btn{
+  .Buttons{
+    gap: 15px;
     margin-left: 10px;
+    display: flex;
   }
   .Cart_ic{
-    width: 24px;
-    height: 24px;
+    width: 34px;
+    height: 34px;
     display: block;
-    background: url(../../img/cart-ic.png) center no-repeat;
+    background: url(../../img/android-chrome-192x192.png) center no-repeat;
     background-size: cover;
     position: absolute;
-    right: 0;
+    left: 50%;
     top: 50%;
     margin-top: -12px;
   }
