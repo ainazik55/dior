@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
+import Logo from "../Logo/Logo";
 import Menu from "../Menu/Menu";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer>
       <div className="container">
         <div className="Foot flex">
-         
+          <Logo />
           <div className="Foot_menu">
             <p className="Foot_tit">Menu</p>
             <div className="Foot_menu-in flex">

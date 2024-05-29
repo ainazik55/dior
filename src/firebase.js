@@ -4,13 +4,13 @@ import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signO
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCaMSsiz4DzITd2h5RIDkxI9_SR8XRULkE",
-    authDomain: "dior-98e87.firebaseapp.com",
-    projectId: "dior-98e87",
-    storageBucket: "dior-98e87.appspot.com",
-    messagingSenderId: "432989628975",
-    appId: "1:432989628975:web:4057ec5a06b26fc70234da"
-  };
+  apiKey: "AIzaSyCaMSsiz4DzITd2h5RIDkxI9_SR8XRULkE",
+  authDomain: "dior-98e87.firebaseapp.com",
+  projectId: "dior-98e87",
+  storageBucket: "dior-98e87.appspot.com",
+  messagingSenderId: "432989628975",
+  appId: "1:432989628975:web:4057ec5a06b26fc70234da"
+};
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);

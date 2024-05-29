@@ -1,11 +1,9 @@
 import './Title.css';
 
-function Title() {
+function Title(props) {
   return (
-    <>
-      Title
-    </>
+    <h2 className="sec_tit">{props.children}</h2>
   );
 }
 
-export default Title
+export default Title;

@@ -1,0 +1,51 @@
+/* .Home_buttons{
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .Home_buttons .Btn{
+    margin: 0 10px;
+  } */
+  .sec_tit{
+    padding: 50px 0 300px;
+    background: url(../../img/dior_1.jpg) center no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  .sec_tit__black{
+    color: #232323;
+  }
+  .sec_tit__white .Btn{
+    border-color: #fff;
+    color: #fff;
+  }
+  /* .Home_sec__iphone15{
+    background-image: url(../../img/home-iphone15.jpg);
+  }
+  .Home_sec__iphone15-2{
+    background-image: url(../../img/home-iphone15-2.jpg);
+  } */
+  /* .Home_slide{
+    display: block;
+    position: relative;
+  }
+  .Home_slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+  } */
+  .sec_txt{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 1;
+  }
+  
